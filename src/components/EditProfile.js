@@ -48,7 +48,7 @@ function EditProfile(){
                 <Divider />
             </div>
             <Presence passBottom={setBottom}/>
-            <Button className='button' variant='contained' color='secondary' style={{alignSelf:'flex-start'}} onClick={handleSave}>Save Profile</Button>
+            <Button className='button' variant='contained' style={{alignSelf:'flex-start', background:"#EE4A87"}} onClick={handleSave}>Save Profile</Button>
         </div>
     );
 }
